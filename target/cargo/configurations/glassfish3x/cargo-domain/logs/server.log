@@ -1,0 +1,52 @@
+janv. 16, 2014 10:00:21 PM com.sun.enterprise.admin.launcher.GFLauncherLogger info
+Infos: JVM invocation command line:
+-XX:+UnlockDiagnosticVMOptions
+-XX:PermSize=64m
+-XX:MaxPermSize=192m
+-XX:NewRatio=2
+-Xmx512m
+-client
+-javaagent:C:/Users/ighachane/applications/Tweety-appmvn/target/cargo/installs/glassfish-3.1.2.2/glassfish3/glassfish/lib/monitor/flashlight-agent.jar
+-Dosgi.shell.telnet.maxconn=1
+-Dfelix.fileinstall.disableConfigSave=false
+-Djdbc.drivers=org.apache.derby.jdbc.ClientDriver
+-Dfelix.fileinstall.dir=C:\Users\ighachane\applications\Tweety-appmvn\target\cargo\installs\glassfish-3.1.2.2\glassfish3\glassfish/modules/autostart/
+-Djavax.net.ssl.keyStore=C:\Users\ighachane\applications\Tweety-appmvn\target\cargo\configurations\glassfish3x\cargo-domain/config/keystore.jks
+-Dosgi.shell.telnet.port=6666
+-Djava.security.policy=C:\Users\ighachane\applications\Tweety-appmvn\target\cargo\configurations\glassfish3x\cargo-domain/config/server.policy
+-Djava.awt.headless=true
+-Dfelix.fileinstall.log.level=2
+-Dfelix.fileinstall.poll=5000
+-Dcom.sun.aas.instanceRoot=C:\Users\ighachane\applications\Tweety-appmvn\target\cargo\configurations\glassfish3x\cargo-domain
+-Dosgi.shell.telnet.ip=127.0.0.1
+-Dcom.sun.enterprise.config.config_environment_factory_class=com.sun.enterprise.config.serverbeans.AppserverConfigEnvironmentFactory
+-Djava.endorsed.dirs=C:\Users\ighachane\applications\Tweety-appmvn\target\cargo\installs\glassfish-3.1.2.2\glassfish3\glassfish/modules/endorsed;C:\Users\ighachane\applications\Tweety-appmvn\target\cargo\installs\glassfish-3.1.2.2\glassfish3\glassfish/lib/endorsed
+-Dcom.sun.aas.installRoot=C:\Users\ighachane\applications\Tweety-appmvn\target\cargo\installs\glassfish-3.1.2.2\glassfish3\glassfish
+-Dfelix.fileinstall.bundles.startTransient=true
+-Djava.ext.dirs=C:\Program Files\Java\jdk1.7.0_40/lib/ext;C:\Program Files\Java\jdk1.7.0_40/jre/lib/ext;C:\Users\ighachane\applications\Tweety-appmvn\target\cargo\configurations\glassfish3x\cargo-domain/lib/ext
+-Dfelix.fileinstall.bundles.new.start=true
+-Djavax.net.ssl.trustStore=C:\Users\ighachane\applications\Tweety-appmvn\target\cargo\configurations\glassfish3x\cargo-domain/config/cacerts.jks
+-Dcom.sun.enterprise.security.httpsOutboundKeyAlias=s1as
+-Djava.security.auth.login.config=C:\Users\ighachane\applications\Tweety-appmvn\target\cargo\configurations\glassfish3x\cargo-domain/config/login.conf
+-DANTLR_USE_DIRECT_CLASS_LOADING=true
+-Dgosh.args=--nointeractive
+janv. 16, 2014 10:00:21 PM com.sun.enterprise.admin.launcher.GFLauncherLogger info
+Infos: Successfully launched in 134 msec.
+[#|2014-01-16T22:02:24.294+0100|INFO|glassfish3.1.2|com.sun.enterprise.server.logging.GFFileHandler|_ThreadID=1;_ThreadName=Thread-2;|Running GlassFish Version: GlassFish Server Open Source Edition 3.1.2.2 (build java_re)|#]
+
+[#|2014-01-16T22:02:32.434+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=33;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 4666ms - bound to [0.0.0.0:7676]|#]
+
+[#|2014-01-16T22:02:32.435+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=29;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 5012ms - bound to [0.0.0.0:9000]|#]
+
+[#|2014-01-16T22:02:32.435+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=27;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 4871ms - bound to [0.0.0.0:4848]|#]
+
+[#|2014-01-16T22:02:32.434+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=28;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 4770ms - bound to [0.0.0.0:3700]|#]
+
+[#|2014-01-16T22:02:32.434+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.services.impl|_ThreadID=30;_ThreadName=Thread-2;|Grizzly Framework 1.9.50 started in: 4884ms - bound to [0.0.0.0:8181]|#]
+
+[#|2014-01-16T22:02:33.311+0100|INFO|glassfish3.1.2|org.glassfish.ha.store.spi.BackingStoreFactoryRegistry|_ThreadID=1;_ThreadName=Thread-2;|Registered org.glassfish.ha.store.adapter.cache.ShoalBackingStoreProxy for persistence-type = replicated in BackingStoreFactoryRegistry|#]
+
+[#|2014-01-16T22:02:33.829+0100|INFO|glassfish3.1.2|javax.enterprise.system.core.com.sun.enterprise.v3.server|_ThreadID=1;_ThreadName=Thread-2;|GlassFish Server Open Source Edition 3.1.2.2 (java_re) startup time : Felix (90 051ms), startup services(27 290ms), total(117 341ms)|#]
+
+[#|2014-01-16T22:03:02.865+0100|INFO|glassfish3.1.2|javax.enterprise.system.jmx.org.glassfish.admin.mbeanserver|_ThreadID=39;_ThreadName=Thread-2;|JMX005: JMXStartupService had Started JMXConnector on JMXService URL service:jmx:rmi://simo-PC:8686/jndi/rmi://simo-PC:8686/jmxrmi|#]
+
