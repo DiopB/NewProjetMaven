@@ -1,4 +1,7 @@
-
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
 package jee.model;
 
 import java.io.Serializable;
@@ -20,21 +23,21 @@ import javax.persistence.Temporal;
 
 @Entity 
 public class Abonnement  implements Serializable {
-        
+	
     @Id
     private Long id;
     
-    private String email_ajout;
+    private String username_ajout;
     @Temporal(javax.persistence.TemporalType.DATE)
-        private Date date_ajout ;
+	private Date date_ajout ;
     
     @ManyToOne(cascade={CascadeType.PERSIST, CascadeType.MERGE, CascadeType.REFRESH })
     @JoinColumn(name="Proprio_username")
-        private Utilisateur user;
-           
+	private Utilisateur user;
+	   
     
     public Abonnement() {
-        }
+	}
 
     /**
      * @return the id
@@ -53,15 +56,15 @@ public class Abonnement  implements Serializable {
     /**
      * @return the email_ajout
      */
-    public String getEmail_ajout() {
-        return email_ajout;
+    public String getUsername_ajout() {
+        return username_ajout;
     }
 
     /**
      * @param email_ajout the email_ajout to set
      */
-    public void setEmail_ajout(String email_ajout) {
-        this.email_ajout = email_ajout;
+    public void setUsername_ajout(String username_ajout) {
+        this.username_ajout = username_ajout;
     }
 
     /**
@@ -92,7 +95,7 @@ public class Abonnement  implements Serializable {
         this.user = user;
     }
 
-        
-        
-        
+	
+	
+	
 }

@@ -98,14 +98,22 @@ public class UtilisateurResource {
     return Response.status(new Status(Status.OK)).cookie(cookie).build();
     
   }
-  
-  @GET @Path("/pageAmis/{username}")
+    @GET @Path("/pageAmis/{username}")
     @Produces( MediaType.APPLICATION_JSON )
     public List<Abonnement> getAbonnements(@PathParam("username") String username){
          List<Abonnement> abonnements = Ebean.find(Abonnement.class).where()
                                                                .eq("Proprio_username",username).findList();
          return abonnements;
     }
+    
+        @GET @Path("/pageAbonne/{username}")
+    @Produces( MediaType.APPLICATION_JSON )
+    public List<Abonnement> getAbonne(@PathParam("username") String username){
+         List<Abonnement> abonnes = Ebean.find(Abonnement.class).where()
+                                                               .eq("username_ajout",username).findList();
+         return abonnes;
+    }
+    
         
     
         
